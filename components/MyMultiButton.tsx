@@ -12,7 +12,7 @@ export default function MyMultiButton() {
 
   return (
     <div>
-      <WalletMultiButtonDynamic className="mymultibutton text-sm break-keep  flex items-center justify-center  text-white  py-[18px] px-[36px] rounded-[320px]  w-full" />
+      <WalletMultiButtonDynamic className="mymultibutton text-sm break-keep  flex items-center justify-center  text-green  py-[18px] px-[36px] rounded-[10vw]  w-full" />
     </div>
   );
 }

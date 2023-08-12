@@ -10,7 +10,8 @@ module.exports = {
 
       },
       colors: {
-            "builderz-green": "#14f195",
+        "greenbank-green": "#2bb32a",
+        "builderz-green": "#14f195",
         "builderz-blue": "#00ffd5",
       },
       animation: {
@@ -22,5 +23,5 @@ module.exports = {
  
     },
   },
-  plugins: [require("daisyui"), require("@tailwindcss/forms")],
+
 };

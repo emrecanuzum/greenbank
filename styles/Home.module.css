@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
+
+
+
 .main {
-  padding-top: 2rem;
+  padding-top:3.4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 100vh;
 }
 
 .bgWrap {
@@ -35,12 +37,14 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-right: 10vw;
 }
 .navbarButton a{
+  @apply hover:text-greenbank-green !important;
   font-family: 'Montserrat', sans-serif;
   margin-left: 1vw;
   margin-right: 1vw;
+  font-weight: 100;
+  font-size: larger;
 }
 
 .walletButton{
