@@ -1,0 +1,26 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/* Next.js container */
+#__next {
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+/* Custom Wallet Button */
+.mymultibutton {
+  @apply bg-none text-black hover:text-white hover:bg-black !important;
+  border: 2px solid rgb(33, 104, 0) !important;
+}

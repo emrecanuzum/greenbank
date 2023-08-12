@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.main {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.bgWrap {
+  top:0vw;
+  position: absolute;
+  height: 355vw;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarLogo{
+  left: 10vw;
+  position: absolute
+
+}
+.navbarButton{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10vw;
+}
+.navbarButton a{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.walletButton{
+  position: absolute;
+  align-items: center;
+  right: 10vw;
+  display: flex;
+}
