@@ -12,14 +12,18 @@
 }
 
 .bgWrap {
-  top:0vw;
+  top:0;
   position: absolute;
   height: 355vw;
   width: 100vw;
   overflow: hidden;
+  right: 0;
   z-index: -1;
+  object-fit: cover;
 }
-
+.bgWrap img{
+  
+}
 .navbar{
   display: flex;
   flex-direction: row;

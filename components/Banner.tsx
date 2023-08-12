@@ -1,4 +1,3 @@
-import { WidthFull } from "@mui/icons-material";
 import styles from "../styles/Banner.module.css"
 import Image from 'next/image'
 
@@ -21,7 +20,7 @@ export default function Banner() {
                         Explore our range of credit cards and take control of your finances today.</p>
                 </div>
                 <div className={styles.bannerGreenButton} onClick={clickHandler} >
-                    
+                    <p>Get Started</p>
                 </div>
                 <div className={styles.bannerActiveUsers}>
                     <Image

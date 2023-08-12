@@ -24,19 +24,26 @@ left: 10vw;
     max-width: 30vw;
 }
 .bannerText p{
+    margin-top: -1vw;
     font-size: 1.2vw;
     font-weight: 100;
     color: gray;
 }
 
 .bannerGreenButton{
+    margin-top: 2.5vw;
     border: 2px solid rgb(#2bb32a) !important;
     width: 11vw;
-    height: 3vw;
+    height: 3.5vw;
     border-radius: 10vw;
     @apply text-white bg-greenbank-green hover:bg-black text-greenbank-green
 }
-
+.bannerGreenButton p{
+   font-size: large;
+   color: white;
+   text-align: center;
+   padding-top: 11%;
+}
 .bannerActiveUsers{
     display: flex;
     padding-top: 1.5vw;
@@ -65,7 +72,7 @@ left: 10vw;
     right: 0;
 }
 .bannerImg img{
-    width: 40vw;
+    width: 48vw;
     display: block;
     height: auto;
 }

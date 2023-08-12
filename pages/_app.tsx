@@ -3,6 +3,15 @@ import Image from 'next/image'
 import styles from "../styles/Home.module.css"
 import Navbar from "../components/Navbar"
 import Banner from "../components/Banner"
+import About from "../components/About"
+import LogoSlider from "../components/LogoSlider"
+import Features from "../components/Features"
+import DesignCardSection from "../components/DesignCardSection"
+import FindCardSection from "../components/FindCardSection"
+import Testimonials from "../components/Testimonials"
+import FAQs from "../components/FAQs"
+import EasyWay from "../components/EasyWay"
+import Footer from "../components/Footer"
 
 require("@solana/wallet-adapter-react-ui/styles.css");
 
@@ -16,7 +25,16 @@ function MyApp() {
 
         <Navbar/>
         <Banner/>
-
+        <About/>
+        <LogoSlider/>
+        <Features/>
+        <DesignCardSection/>
+        <FindCardSection/>
+        <Testimonials/>
+        <FAQs/>
+        <EasyWay/>
+        <Footer/>
+        
     </main>
   );
 }
