@@ -11,13 +11,7 @@ function MyApp() {
   return (
       <main className={styles.main}>
         <div className={styles.bgWrap}>
-          <Image
-            alt="travel"
-            src="/images/bg.png"
-            layout="fill"
-            objectFit="cover"
-            quality={100}
-          />
+          <Image alt="travel" src="/images/bg.png" layout="fill" objectFit="cover" quality={100}/>
         </div>
 
         <Navbar/>
