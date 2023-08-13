@@ -14,8 +14,9 @@
 .bgWrap {
   top:0;
   position: absolute;
-  height: 355vw;
+
   width: 100vw;
+  height: 343.5vw;
   overflow: hidden;
   right: 0;
   z-index: -1;
