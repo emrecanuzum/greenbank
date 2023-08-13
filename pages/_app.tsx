@@ -2,9 +2,9 @@ import "../styles/globals.css"
 import Image from 'next/image'
 import styles from "../styles/Home.module.css"
 import Navbar from "../components/Navbar"
-import Banner from "../components/Banner"
-import Aboutt from "../components/About"
-import LogoSlider from "../components/LogoSlider"
+import Banner from "../components/Banner";
+import Aboutt from '../components/Aboutt';
+import LogoSlider from "../components/LogoSlider";
 import Features from "../components/Features"
 import DesignCardSection from "../components/DesignCardSection"
 import FindCardSection from "../components/FindCardSection"
