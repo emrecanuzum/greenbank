@@ -1,0 +1,78 @@
+
+.banner{
+    padding-top: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bannerContainer{
+position: absolute;
+max-width: 40vw;
+left: 10vw;
+  
+}
+.bannerTitle{
+
+
+}
+.bannerTitle h1{
+    font-size: 4vw;
+}
+
+.bannerText{
+    max-width: 30vw;
+}
+.bannerText p{
+    margin-top: -1vw;
+    font-size: 1.2vw;
+    font-weight: 100;
+    color: gray;
+}
+
+.bannerGreenButton{
+    margin-top: 2.5vw;
+    border: 2px solid rgb(#2bb32a) !important;
+    width: 11vw;
+    height: 3.5vw;
+    border-radius: 10vw;
+    @apply text-white bg-greenbank-green hover:bg-black text-greenbank-green
+}
+.bannerGreenButton p{
+   font-size: large;
+   color: white;
+   text-align: center;
+   padding-top: 11%;
+}
+.bannerActiveUsers{
+    display: flex;
+    padding-top: 1.5vw;
+}
+
+.bannerActiveUsers h1 {
+    margin-top: 0;
+    font-size: 1vw;
+}
+.bannerActiveUsers p{
+    color: gray;
+    font-weight: 100;
+    max-width: 9vw;
+    margin-top: -0.5vw;
+    font-size: 0.7vw;
+}
+.bannerActiveUsersContainer{
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: column;
+
+}
+.bannerImg{
+    position: absolute;
+    display: block;
+    right: 0;
+}
+.bannerImg img{
+    width: 48vw;
+    display: block;
+    height: auto;
+}

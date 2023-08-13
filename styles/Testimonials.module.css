@@ -1,0 +1,43 @@
+.testimonials{
+    margin-top: 45vw;
+}
+.tRow{
+    display: flex;
+    justify-content: space-between;
+}
+.tItemContainer{
+    margin: 1vw;
+    border: 2px solid rgb(#2bb32a);
+    border-radius: 2vw;
+    background-color: #9292920e;
+    backdrop-filter: blur(4px);
+    width: 25vw;
+    height: 21vw;
+}
+.tImageContainer{
+    margin-top: 2.5vw;
+    margin-left: 1.2vw;
+    contain: content;
+    border: 2px solid #3D544D;
+    background-color: #3D544D;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 2vw;
+}
+.tImageContainer img{
+    position: fixed;
+    top:1vw;
+    left: 1vw;
+}
+.tDescription{
+    margin: 1.2vw;
+    margin-top: 2.5vw;
+}
+.tDescription p{
+    font-size: 1vw;
+    font-weight: 100;
+}
+.tAuthor{
+    margin-left: 1.2vw;
+    margin-top: 2.5vw;
+}
