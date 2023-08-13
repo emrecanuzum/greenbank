@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from "../styles/Home.module.css"
 import Navbar from "../components/Navbar"
 import Banner from "../components/Banner"
-import About from "../components/About"
+import Aboutt from "../components/About"
 import LogoSlider from "../components/LogoSlider"
 import Features from "../components/Features"
 import DesignCardSection from "../components/DesignCardSection"
@@ -36,7 +36,7 @@ function MyApp({analyticsData}: AboutProps) {
 
         <Navbar/>
         <Banner/>
-        <About analyticsData={analyticsData} />
+        <Aboutt analyticsData={analyticsData} />
         <LogoSlider/>
         <Features/>
         <DesignCardSection/>
