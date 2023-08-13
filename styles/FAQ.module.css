@@ -1,0 +1,42 @@
+.faqBody{
+margin-top: 10vw;
+}
+.faqBody h1{
+  text-align: center;
+  font-size: 3vw;
+}
+.faqContainer {
+  contain: content;
+  width: 60vw;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.faqItem {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+  contain: content;
+}
+
+.question {
+  font-size: 1.4vw;
+  font-weight: bold;
+  font-family: 'M PLUS 1', sans-serif ;
+  margin-bottom: 0.7vw;
+  @apply hover:text-greenbank-green
+}
+
+.answer {
+  font-size: 1vw;
+  margin-top: 1.2vw;
+  font-family: 'M PLUS 1', sans-serif ;
+  color: #ccc;
+  margin-bottom: 1.2vw;
+}
+.plusIcon{
+  position: absolute;
+  right: 2vw;
+  top:  0.3vw;
+}

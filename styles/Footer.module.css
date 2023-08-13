@@ -1,0 +1,42 @@
+.footerUpside{
+    margin-top: 12vw;
+    display: flex;
+}
+
+.footerDownload{
+    width: 44.2vw;
+}
+
+.footerDownload h1{
+    font-size: 4vw;
+}
+
+.footerDownload p{
+    color: rgb(155, 155, 155);
+    font-family: 0;
+    font-size: 1.4vw;
+    margin-top: 0vw;
+}
+
+.buttons{
+    display: flex;
+}
+
+.downloadButton{
+    margin-right: 1.1vw;
+    margin-top: 1.5vw;
+    contain: content;
+    border: 0px solid #3D544D;
+    background-color: #3D544D;
+    padding: 1vw;
+    width: auto;
+    height: auto;
+    border-radius: 1vw;
+    @apply hover:bg-black;
+}
+
+.footerPhones img{
+    margin-bottom: -0.2vw;
+    width: 35vw;
+    height: auto;
+}
