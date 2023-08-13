@@ -3,7 +3,6 @@ import Image from 'next/image'
 import styles from "../styles/Home.module.css"
 import Navbar from "../components/Navbar"
 import Banner from "../components/Banner";
-import Aboutt from '../components/Aboutt';
 import LogoSlider from "../components/LogoSlider";
 import Features from "../components/Features"
 import DesignCardSection from "../components/DesignCardSection"
@@ -12,6 +11,7 @@ import Testimonials from "../components/Testimonials"
 import FAQs from "../components/FAQs"
 import EasyWay from "../components/EasyWay"
 import Footer from "../components/Footer"
+import About from '../components/About';
 
 require("@solana/wallet-adapter-react-ui/styles.css");
 
@@ -36,7 +36,7 @@ function MyApp({analyticsData}: AboutProps) {
 
         <Navbar/>
         <Banner/>
-        <Aboutt analyticsData={analyticsData} />
+        <About analyticsData={analyticsData} />
         <LogoSlider/>
         <Features/>
         <DesignCardSection/>
