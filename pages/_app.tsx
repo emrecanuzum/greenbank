@@ -11,6 +11,7 @@ import Testimonials from "../components/Testimonials"
 import FAQs from "../components/FAQs"
 import EasyWay from "../components/EasyWay"
 import Footer from "../components/Footer"
+import FooterBottom from "../components/FooterBottom"
 import About from '../components/About';
 
 require("@solana/wallet-adapter-react-ui/styles.css");
@@ -45,6 +46,7 @@ function MyApp({analyticsData}: AboutProps) {
         <FAQs/>
         <EasyWay/>
         <Footer/>
+        <FooterBottom/>
         
     </main>
   );
