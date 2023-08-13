@@ -1,6 +1,6 @@
 # GreenBank Front-End Test Job (Designed by Emrecan Üzüm)
 
-This project is a pre-employment test for front-end.
+This project is a pre-employment test for front-end. Build with Next.js v13 with TypeScript
 
 ## Connect Wallet
 
@@ -28,7 +28,29 @@ Finally, this is how API data is rendered for user:
 
 ![return](https://github.com/emrecanuzum/greenbank/assets/73427323/ee5bb435-865e-405b-9cc6-1f3e9679c3e1)
 
+## Mock API
 
+This part is much more easier with Google Analytics but the reason why I create Next.js API is the task that I've got.
+This backend is not complicated, it has basic req/res and json staffs.
 
+![image](https://github.com/emrecanuzum/greenbank/assets/73427323/032ee375-a602-42e2-bf85-7af7af77e117)
+
+## Next/React features
+
+I've used the most common feature of Next/React in the FAQs section.
+
+![image](https://github.com/emrecanuzum/greenbank/assets/73427323/56aa2cd7-4e03-4d4d-b611-e8acc2ffb582)
+
+as you can see there is a useState call in return. The details are like below:
+
+![usestate](https://github.com/emrecanuzum/greenbank/assets/73427323/edf75a7c-5015-4192-841f-49f976e84b84)
+
+## SEO
+
+![image](https://github.com/emrecanuzum/greenbank/assets/73427323/26368b08-49b9-4aa2-a8e5-c29ec890151d)
+
+As you can see above, I've used meta tags for optimizing SEO well, of course its not fully done with meta tags, html tags are self describing too
+
+## Full View of the Website
 
 ![website](https://github.com/emrecanuzum/greenbank/assets/73427323/4af44191-16cf-4b12-9722-bb804c195c74)
