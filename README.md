@@ -51,6 +51,11 @@ as you can see there is a useState call in return. The details are like below:
 
 As you can see above, I've used meta tags for optimizing SEO well, of course its not fully done with meta tags, html tags are self describing too
 
+## Video
+
+https://github.com/emrecanuzum/greenbank/assets/73427323/3d9da8a9-b4b5-4c46-920f-28a7ef3a6066
+
 ## Full View of the Website
 
 ![website](https://github.com/emrecanuzum/greenbank/assets/73427323/4af44191-16cf-4b12-9722-bb804c195c74)
+
