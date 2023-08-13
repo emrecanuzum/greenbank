@@ -15,7 +15,18 @@ import Footer from "../components/Footer"
 
 require("@solana/wallet-adapter-react-ui/styles.css");
 
-function MyApp() {
+interface AnalyticsData {
+  performance: string;
+  clients: string;
+  transactions: string;
+  funds: string;
+}
+
+interface AboutProps {
+  analyticsData: AnalyticsData;
+}
+
+function MyApp({analyticsData}: AboutProps) {
 
   return (
       <main className={styles.main}>
@@ -25,7 +36,7 @@ function MyApp() {
 
         <Navbar/>
         <Banner/>
-        <About/>
+        <About analyticsData={analyticsData} />
         <LogoSlider/>
         <Features/>
         <DesignCardSection/>
@@ -37,6 +48,21 @@ function MyApp() {
         
     </main>
   );
+}
+
+
+export async function getServerSideProps() {
+  const response = await fetch("http://localhost:3000/api/analytics");
+  const data = await response.json();
+  console.log(data);
+  if(!data){
+      console.log("data yok")
+  }
+  return {
+      props: {
+          analyticsData: data,
+      },
+  };
 }
 
 export default MyApp;
