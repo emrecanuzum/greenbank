@@ -51,6 +51,28 @@ as you can see there is a useState call in return. The details are like below:
 
 As you can see above, I've used meta tags for optimizing SEO well, of course its not fully done with meta tags, html tags are self describing too
 
+## Missions
+
+| Mission | Staatus |
+| -- | --|
+|Wallet Integration | Done |
+|Real-time stats| Partially Done (All functions are fine but there is a problem in response sometimes)|
+|Mock anaalytics| Partially Done (There is a working API but no interface design)
+|Use Next.js 13 | Done |
+|Use TypeScript | Done |
+|Use many Next.js Features| Partially Done ( I've used most common and basic Next.js features but not too many)|
+|Use SCSS/SASS| Not Done (I know the basics of these concepts but I didn't use due to optimizing the website with less package) |
+|Well Linting & Formatting| Done|
+|Feature Branching| Not Done|
+|Clear Labeled Version Control | Done|
+|Vercel Deploy|Done|
+|SEO with meta tags | Done |
+|SEO configurations on components|Partially Done (Due to time limits I couldn't configure all components)|
+|Using micro-interaction| Done (with buttons and similar page sections)|
+|Smooth experience for users and a11y| Done|
+|Performance efficiency|Done|
+
+
 ## Video
 
 https://github.com/emrecanuzum/greenbank/assets/73427323/3d9da8a9-b4b5-4c46-920f-28a7ef3a6066
